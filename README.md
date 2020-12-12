@@ -20,11 +20,11 @@ Here's how to use the page:
 ![](./Resources/full_table.png)  
 
 ## Summary
-This webpage is very simple and provides the user with quick information. One drawback is that if a user types in criterion which is not in the database, nothing is returned and there is no message saying "data not found" or something to that effect.
+This webpage is very simple and provides the user with quick information. One drawback is having a default city of "roswell" because Roswell, New Mexico is not even in the database. 
 
 Here are two recommendations for improvement:
+- Put in a different default value for city, such as "el cajon." 
 - Add a message telling the users "data not found" when they search on criterion not present in the database.
-- Add the ability to sort on the column headers.
 
 
 
